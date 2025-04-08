@@ -8,13 +8,12 @@ The goal will be to learn more about the problems and potential for writing and 
 
 Novices and experts are all welcome and encouraged to attend. No previous experience coding is required, since this ELE is meant to facilitate a discussion about the role that writing and TPC plays pedagogically beyond using (or not using) generative AI tools.
 
-
 ## Session Information
 
 **CCCC 2025 | Computer Love | Session 2151 | Room 350**
 
 - **Time**: 04/10/2025 4:45PM - 6:00PM EDT
--  **Abstract**: What is our discipline’s role in teaching and advocating for critical approaches to writing data? The facilitator and attendees will work through a computational notebook together that conducts exploratory data analysis. This coding and data process is meant to facilitate discussion to learn more about what writing and technical communication can bring to data practices.
+- **Abstract**: What is our discipline’s role in teaching and advocating for critical approaches to writing data? The facilitator and attendees will work through a computational notebook together that conducts exploratory data analysis. This coding and data process is meant to facilitate discussion to learn more about what writing and technical communication can bring to data practices.
 - [Google Slides](https://docs.google.com/presentation/d/12-__kN5FD6JKRd7bovFplPfexBmnuCj9/edit?usp=sharing&ouid=106375923921921850595&rtpof=true&sd=true)
 - License: CC BY-NC-SA
-- DOI:
+- DOI: [![DOI](https://zenodo.org/badge/962807649.svg)](https://doi.org/10.5281/zenodo.15177209)
