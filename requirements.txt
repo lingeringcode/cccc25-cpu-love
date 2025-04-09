@@ -3,7 +3,7 @@ numpy==1.26.4
 pandas==2.1.4
 plotly==5.24.1
 scipy==1.13.1
-seaborn==0.12.2
+seaborn==0.13.0
 wquantiles==0.6
 statsmodels==0.14.4
 scikit-learn==1.6.0

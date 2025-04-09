@@ -38,7 +38,7 @@ import pickle
 def _reciprocal_rank(true_genre_labels: list, machine_predicted_genre_labels: list):
     '''
     ## Purpose
-    Compute the reciprocal rank at cutoff k
+    Compute the reciprocal rank (RR) at cutoff k.
 
     ## Parameters
         - `true_genre_labels` (List): List of actual news genre labels
@@ -63,8 +63,12 @@ def _reciprocal_rank(true_genre_labels: list, machine_predicted_genre_labels: li
 
 def compute_mrr_at_k(eval_news_category_items:list):
     '''
-    ## Purpose
-    `compute_mrr_at_k()`: Computes the MRR (average RR) at cutoff k. In sum, it takes the mean average of all of the reciprocal rank scores among the actual vs. predicted labels. Review this ["Mean reciprocal rank" wikipedia article](https://en.wikipedia.org/wiki/Mean_reciprocal_rank) for a simple explainer.
+    # compute_mrr_at_k()
+
+    Computes the MRR (average RR) at cutoff k.
+
+    MRR evaluates any process that produces a list of possible responses to a sample of queries, ordered by probability of correctness, e.g., 1 for first place, 1⁄2 for second place, 1⁄3 for third place and so on. Review this ["Mean reciprocal rank" wikipedia article](https://en.wikipedia.org/wiki/Mean_reciprocal_rank) for a simple explainer.
+
     ## Parameters
     - `eval_news_category_items` (List): List that contains 2 values
         1. String - Actual news genre category
